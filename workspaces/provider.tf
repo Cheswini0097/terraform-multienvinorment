@@ -6,10 +6,10 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "cheswini-s3-bucket"
-    key    = "expense-for-loop"
+    bucket = "cheswini.shop-s3"
+    key    = "workspacec-key"
     region = "us-east-1"
-    dynamodb_table = "dynamo-DB--locking-s3"
+    dynamodb_table = "cheswini.shop-locking"
 }
 }
 

@@ -5,4 +5,4 @@ instance_names = {
 }
 
 
-environment = "prod"
+environment = "dev"
